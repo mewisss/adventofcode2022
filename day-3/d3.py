@@ -46,7 +46,7 @@ def gamet2(anArray):
     finalScore =0
     for i in range(0, len(read), 3):
         finalScore += assignValue(compare3strings(anArray[i:i+3]))
-        print("i = " + str(i) + "\n i+3 = " + str(i+3))
+        #print("i = " + str(i) + "\n i+3 = " + str(i+3))
     return finalScore
 
 print(gamet2(read))
